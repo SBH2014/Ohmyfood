@@ -5,6 +5,7 @@
 *
 .block__page{
     max-width: 1400px;
+    height: 100%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
  
@@ -20,4 +21,5 @@
 @import "layouts/process";
 @import "layouts/restaurants";
 @import "layouts/footer";
+@import "layouts/loader";
 

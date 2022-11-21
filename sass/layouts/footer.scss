@@ -24,4 +24,15 @@
         column-gap:10px
         
     }
+    @media screen and (min-width:700px) {
+       &__links{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 80px;
+        align-items: center;
+       }
+       h2{
+        text-align: center;
+       }
+    }
 }
