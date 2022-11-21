@@ -1,13 +1,27 @@
 .footer{
-    background-color: $color-ink;
+    background-color:#353535;
+ 
     color: white;
+    padding: 20px;
     h2{
         font-family:'Shrikhand', cursive;
         font-size: 20px;
         font-weight: 400;
     }
     &__links{
+        display: flex;
         font-size: 16px;
         font-weight: 500;
+        flex-direction: column;
+        row-gap: 10px;
+        padding-top: 20px;
+    }
+    &__link{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        color: white;
+        column-gap:10px
+        
     }
 }
