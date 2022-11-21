@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*
+.block__page{
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+@import "layouts/header";
+@import "utils/variables";
+@import "layouts/location";
+@import "layouts/hero-section";
+@import "utils/mixins";
+@import "utils/extension";
+@import "componants/button";
+@import "layouts/process";
+@import "layouts/restaurants";
+@import "layouts/footer";
+

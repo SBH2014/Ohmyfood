@@ -1,0 +1,13 @@
+.footer{
+    background-color: $color-ink;
+    color: white;
+    h2{
+        font-family:'Shrikhand', cursive;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    &__links{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
