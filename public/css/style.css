@@ -59,11 +59,12 @@
   border: none;
   font-style: normal;
   font-size: 18px;
+  width: 200px;
   text-align: center;
   cursor: pointer;
 }
 
-.loader, .header__logo, .location, .hero-section, .hero-section__title {
+.restaurant__menu-choices, .restaurants__menu-button, .loader, .header__logo, .location, .hero-section, .hero-section__title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +102,7 @@
 .restaurant__menu-button {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 95%;
   height: 70px;
   align-items: center;
   justify-content: space-between;
@@ -109,6 +110,10 @@
   border-radius: 20px;
   padding: 15px;
   background-color: white;
+  overflow: hidden;
+}
+.restaurant__menu:hover .restaurant__menu-check {
+  display: flex;
 }
 
 .functioning {
@@ -402,6 +407,9 @@
   height: 100%;
   background-color: #f6f6f6;
 }
+.restaurants__menu-button {
+  padding-top: 50px;
+}
 .restaurants__menu-head {
   display: flex;
   flex-direction: row;
@@ -414,30 +422,33 @@
 
 .restaurant__menu {
   display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
-
-.restaurant__menu-entree {
+.restaurant__menu-bloc {
   display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: center;
   row-gap: 10px;
-  padding: 10px;
 }
-.restaurant__menu-entree h2 {
+.restaurant__menu-bloc h2 {
   position: relative;
   font-weight: 400;
   font-size: 19px;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  padding: 10px;
 }
-.restaurant__menu-entree h2:after {
+.restaurant__menu-bloc h2:after {
   content: "";
   position: absolute;
-  width: 10%;
+  width: 50px;
   bottom: 0;
-  left: 0;
+  left: 10px;
   border-bottom: 3px solid #99E2D0;
+}
+.restaurant__menu-text {
+  text-align: left;
 }
 .restaurant__menu-text h3 {
   font-weight: bold;
@@ -445,11 +456,39 @@
   padding-bottom: 10px;
 }
 .restaurant__menu-text p {
-  float: left;
   font-size: 14px;
 }
 .restaurant__menu-price {
   font-weight: bold;
+}
+.restaurant__menu-choices {
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+}
+.restaurant__menu-check {
+  background-color: #99E2D0;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border-radius: 0 20px 20px 0;
+  transform: translate(120%);
+  animation: slide-in 0.5s 2s ease-out forwards;
+  display: none;
+}
+.restaurant__menu-check .fa-solid {
+  background-color: white;
+  border-radius: 20px;
+  padding: 2px;
+  color: #99E2D0;
+}
+
+@keyframes slide-in {
+  100% {
+    transform: translateX(20%);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
