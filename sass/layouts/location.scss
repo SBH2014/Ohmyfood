@@ -1,9 +1,8 @@
 .location
 {
-display: flex;
-justify-content: center;
+
+@extend %flex;
 height: 50px;
-align-items: center;
 background-color: #e9e6e6;
 color: $color-ink;
 box-shadow: inset 0 5px 4px 1px rgba(142, 142, 143, 0.2);

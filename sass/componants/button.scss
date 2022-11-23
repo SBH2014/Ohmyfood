@@ -37,4 +37,19 @@
     }
 
     }
+ .restaurant__menu{
+    &-button {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+        @extend %button;
+        @include box-shadow;
+        border-radius: 20px;
+        padding: 15px;
+        background-color:white;
+    }
+ }
     
