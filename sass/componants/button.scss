@@ -1,44 +1,44 @@
-
-.hero-section{
-    &__button{
+.hero-section {
+    &__button {
         @extend %button;
         color: white;
-        
+width: 250px;
         border-radius: 30px;
         @include padding-button;
         margin-bottom: 60px;
         @include box-shadow;
         // @include background-image(null,$color-primary,$color-secondary, right);
-        background-image: linear-gradient(
-            to top,
-            $color-primary,
-            $color-secondary,
-        );
-        &:hover{
+        background-image: linear-gradient(to top,
+                $color-primary,
+                $color-secondary,
+            );
+
+        &:hover {
             opacity: 0.8;
             transition: .4s;
             box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
         }
+    }
 }
- }
 
-.functioning__button{ 
+.functioning__button {
     @extend %button;
-       background-color: #f6f6f6;
-       font-weight: 700;
-       font-family: 3;
-       width: 95%;
-     @include padding-button;
-     @include box-shadow;
-     border-radius: 20px;
-     &:hover{
+    background-color: #f6f6f6;
+    font-weight: 700;
+    font-family: 3;
+    width: 95%;
+    @include padding-button;
+    @include box-shadow;
+    border-radius: 20px;
+
+    &:hover {
         opacity: 1;
         transition: .4s;
         box-shadow: 0 0 10px 0 rgb(0 0 0 / 100%);
     }
 
-    }
- .restaurant__menu{
+}
+.restaurant__menu {
     &-button {
         display: flex;
         flex-direction: row;
@@ -50,14 +50,26 @@
         @include box-shadow;
         border-radius: 20px;
         padding: 15px;
-        background-color:white;
-       
-       overflow: hidden;
+        background-color: white;
+        overflow: hidden;
+        animation: slideDown 2s;
+
+        &:hover :nth-child(3) {
+            display: flex;
+            animation: slide-in 0.5s ease-out both;
+        
+        }
+
+        &:hover i {
+            animation: rotate 0.5s both;
+        }
+     
+
       
+
+
     }
-    &:hover &-check{
-        display: flex;
-    
-    }
- }
-    
+
+
+
+}
