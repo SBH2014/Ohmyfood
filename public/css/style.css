@@ -114,7 +114,6 @@
   padding: 15px;
   background-color: white;
   overflow: hidden;
-  animation: slideDown 2s;
 }
 .restaurant__menu-button:hover :nth-child(3) {
   display: flex;
