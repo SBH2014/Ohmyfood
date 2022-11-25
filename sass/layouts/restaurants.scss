@@ -17,7 +17,7 @@
             text-decoration: none;
             width: 100%;
         }
-        @media screen and (min-width:900px) {
+        @media screen and (min-width:$desktop) {
             flex-direction: row;
             width: 100%;
             column-gap: 20px;
@@ -140,7 +140,7 @@
 
     }
 
-    @media screen and (min-width:800px) {
+    @media screen and (min-width:960px) {
         .restaurant__card {
             
             &-pic {
