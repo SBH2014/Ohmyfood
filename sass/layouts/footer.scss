@@ -26,6 +26,15 @@
         column-gap:10px
         
     }
+    @media screen and (min-width:$tablette) {
+        &__links{
+         height: 80px;
+         align-items: center;
+        }
+        h2{
+         text-align: center;
+        }
+     }
     @media screen and (min-width:$desktop) {
        &__links{
         flex-direction: row;

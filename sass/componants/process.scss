@@ -3,10 +3,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 40px;
+    align-items: center;
+
 
     h2 {
         padding: 20px;
+        align-self: flex-start;
     }
 
     padding-bottom: 40px;
@@ -15,12 +17,12 @@
         display: flex;
         flex-direction: column;
         justify-items: center;
-        width: 90%;
+        width: 95%;
         margin-top: 20px;
         row-gap: 20px;
         padding-left: 30px;
 
-        
+
 
     }
 
@@ -53,21 +55,52 @@
             margin-left: 60px;
         }
     }
+
+    @media screen and (min-width:$tablette) {
+        h2 {
+            align-self: center;
+        }
+
+        &__steps {
+            width: 50%;
+            column-gap: 30px;
+
+
+        }
+
+        &__icon {
+            margin-left: 10px;
+        }
+
+        &__text {
+
+
+            margin-left: 40px;
+
+        }
+    }
+
     @media screen and (min-width:$desktop) {
-        &__steps{
+        h2 {
+            align-self: flex-start;
+        }
+
+        &__steps {
             flex-direction: row;
-        column-gap: 30px;
-        width: 95%;
+            column-gap: 30px;
+            width: 90%;
 
         }
-        &__icon{
-                margin-left: 10px;
-        }
-        &__text{
-           
 
-                margin-left: 40px;
-            
+        &__icon {
+            margin-left: 10px;
+        }
+
+        &__text {
+
+
+            margin-left: 40px;
+
         }
     }
 

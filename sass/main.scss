@@ -13,13 +13,13 @@
 
 @import "layouts/header";
 @import "utils/variables";
-@import "layouts/location";
+@import "componants/location";
 @import "layouts/hero-section";
 @import "utils/mixins";
 @import "utils/extension";
 @import "componants/button";
-@import "layouts/process";
-@import "layouts/restaurants";
+@import "componants/process";
+@import "pages/restaurants";
 @import "layouts/footer";
 @import "layouts/loader";
 @import "layouts/restaurants_menu";

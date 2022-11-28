@@ -2,9 +2,14 @@
     max-width: 1400px;
     background-color: $color-light-grey;
     padding: 20px;
+    @extend %flex;
+    flex-direction: column;
+    flex-basis: 100%;
+
 
     h2 {
         padding-bottom: 15px;
+        align-self: flex-start;
     }
 
     &__cards {
@@ -12,20 +17,44 @@
         flex-direction: column;
         justify-content: center;
        width: 100%;
+
         row-gap: 25px;
+
         a {
             text-decoration: none;
             width: 100%;
         }
+
         @media screen and (min-width:$desktop) {
             flex-direction: row;
-            width: 100%;
-            column-gap: 20px;
+
+            column-gap: 10px;
+            align-items: center;
             justify-content: center;
-            a{
+
+            a {
                 width: 50%;
 
             }
+
+        }
+
+        @media screen and (min-width:$tablette) {
+
+
+            width: 100%;
+            flex-direction: row;
+        
+            column-gap: 10px;
+       
+           
+
+            a {
+                width: 50%;
+
+            }
+
+
         }
 
 
@@ -42,8 +71,6 @@
     position: relative;
     border-radius: 20px;
     @include box-shadow;
-
-
 
     &-pic {
         width: 100%;
@@ -98,7 +125,7 @@
             padding-top: 10px;
         }
 
-     
+
     }
 
     &-heart {
@@ -140,15 +167,16 @@
 
     }
 
-    @media screen and (min-width:960px) {
+    @media screen and (min-width:$desktop) {
         .restaurant__card {
-            
+
             &-pic {
                 width: 100%;
                 height: 100px;
+
                 img {
                     width: 100%;
-                    height: 50;
+              
                 }
             }
 
@@ -156,6 +184,7 @@
                 >:nth-child(1) {
                     font-size: 15px;
                 }
+
                 >:nth-child(2) {
                     font-size: 14px;
                 }
@@ -164,11 +193,27 @@
 
     }
 
+    @media screen and (min-width:$tablette) {
+        .restaurant__card {
+            &-pic {
+                width: 100%;
+                height: 100px;
 
+                img {
+                    width: 100%;
+                }
+            }
+            &-text {
+                >:nth-child(1) {
+                    font-size: 15px;
+                }
 
+                >:nth-child(2) {
+                    font-size: 14px;
+                }
+            }
+        }
 
-
-
-
+    }
 
 }
