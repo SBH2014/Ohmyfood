@@ -1,5 +1,6 @@
+/* process home page */
 .functioning {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -31,7 +32,6 @@
         flex-direction: row;
         align-items: center;
         position: relative;
-
         &__number {
             background-color: $color-primary;
             border-radius: 20px;
@@ -60,27 +60,20 @@
         h2 {
             align-self: center;
         }
-
         &__steps {
             width: 50%;
             column-gap: 30px;
-
-
         }
-
         &__icon {
             margin-left: 10px;
         }
-
         &__text {
-
-
             margin-left: 40px;
-
         }
     }
 
     @media screen and (min-width:$desktop) {
+        width: 100%;
         h2 {
             align-self: flex-start;
         }

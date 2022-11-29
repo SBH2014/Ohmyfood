@@ -1,4 +1,4 @@
-/* boutton recherche page d'acceuil */
+/* button search home page  */
 .hero-section {
     &__button {
         @extend %button;
@@ -22,12 +22,11 @@
     }
 }
 
-/* boutton de fontionnement page d'acceuil */
+/* fuctioning button home page  */
 .functioning__button {
     @extend %button;
     background-color: #f6f6f6;
     font-weight: 700;
- 
     width: 95%;
     @include padding-button;
     @include box-shadow;
@@ -41,7 +40,7 @@
 
 }
 
-/* boutton plats page des restaurants */
+/* dish button, page restaurants  */
 
 .restaurant__menu {
     &-button {
@@ -55,19 +54,18 @@
         background-color: white;
         display: flex;
         overflow: hidden;
-        &:hover :nth-child(2) {
-          margin-right: 0;
-          transition-duration: 0.5s;
-          transition-timing-function: ease;
-    
-        }
-    
-        &:hover i {
-          animation: rotate 0.5s both;
-        }
-    
-      }
- 
 
+       
+
+        &:hover .restaurant__menu-check {
+        
+            margin-right: 0;
+            transition-duration: 0.5s;
+            transition-timing-function: ease;
+        }
+
+        &:hover i {
+            animation: rotate 0.5s both;
+        }
     }
- 
+}

@@ -25,8 +25,7 @@
   }
 
   @media screen and (min-width: $tablette) {
-    width: 98%;
-    margin-left: 1%;
+ 
     &-head{
       width: 70%;
       margin-left: 13%;
@@ -34,10 +33,10 @@
 
   }
   @media screen and (min-width: $desktop) {
-    width: 98%;
-    margin-left: 1%;
+    width: 100%;
+
     &-head{
-     width: 98%;
+
       margin-left: 0;
     }
   }
@@ -51,14 +50,10 @@
  
   row-gap: 30px;
   background-color: $color-light-grey;
-
-
-
   @media screen and (min-width: $desktop) {
     flex-direction: row;
     align-items: flex-start;
   }
- 
 
   &-choices {
     display: flex;
