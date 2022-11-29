@@ -22,11 +22,7 @@
         margin-top: 20px;
         row-gap: 20px;
         padding-left: 30px;
-
-
-
     }
-
     &__button {
         display: flex;
         flex-direction: row;
@@ -34,21 +30,18 @@
         position: relative;
         &__number {
             background-color: $color-primary;
+            color: white;
             border-radius: 20px;
-
             padding: 5px 9px 5px 9px;
             position: absolute;
             font-size: small;
             transform: translateX(-130%);
-
         }
-
         &__icon {
             position: absolute;
             color: $color-ink;
             margin-left: 20px;
         }
-
         &__text {
 
             text-align: center;

@@ -1,24 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-*
-.block__page{
-    max-width: 1400px;
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
-}
 
-@import "layouts/header";
 @import "utils/variables";
-@import "componants/location";
-@import "layouts/hero-section";
 @import "utils/mixins";
 @import "utils/extension";
 @import "componants/button";
-@import "componants/process";
-@import "pages/restaurants";
 @import "layouts/footer";
-@import "layouts/loader";
 @import "layouts/restaurants_menu";
 @import "base/animations";
+@import "base/rules";
+@import "normalize.css";
+@import "./main__home-page.scss";

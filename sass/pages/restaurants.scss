@@ -1,4 +1,4 @@
-.restaurants {
+#restaurants {
     max-width: 1400px;
     background-color: $color-light-grey;
     padding: 20px;
@@ -12,7 +12,7 @@
         align-self: flex-start;
     }
 
-    &__cards {
+    .restaurants__cards {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -48,15 +48,8 @@
                 width: 50%;
             }
         }
-
-
-
-
     }
-
-
 }
-
 .restaurant__card {
     display: flex;
     flex-direction: column;

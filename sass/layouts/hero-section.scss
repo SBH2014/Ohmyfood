@@ -2,8 +2,9 @@
     @extend %flex;
     flex-direction: column;
     background-color: $color-light-grey;
-
-
+    a{
+        text-decoration: none;
+    }
     &__title {
         @extend %flex; 
         flex-direction: column;
@@ -12,6 +13,4 @@
         max-width: 300px;
         row-gap: 10px;
     }
-    
-
 }

@@ -38,6 +38,7 @@
     &-head{
 
       margin-left: 0;
+      width: 95%;
     }
   }
   
@@ -50,11 +51,14 @@
  
   row-gap: 30px;
   background-color: $color-light-grey;
+
   @media screen and (min-width: $desktop) {
     flex-direction: row;
     align-items: flex-start;
+    h2{
+      align-self:center;
+    }
   }
-
   &-choices {
     display: flex;
     flex-direction: column;
@@ -73,7 +77,9 @@
 
     @media screen and (min-width: $tablette) {
       width: 70%;
+    
     }
+ 
    
 
     &:nth-child(1) {
@@ -93,6 +99,7 @@
 
     h2 {
       position: relative;
+    
       font-weight: 400;
       font-size: 19px;
       text-transform: uppercase;
@@ -159,7 +166,8 @@
     margin-right: -75px;
     width: 75px;
     border-radius: 0 20px 20px 0;
-
+         
+ 
     .fa-solid {
       background-color: white;
       border-radius: 20px;
