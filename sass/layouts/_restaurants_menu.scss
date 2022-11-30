@@ -17,11 +17,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items:flex-start;
     @include font-family-title;
     font-size: small;
     padding: 20px;
     height: 50px;
+    .restaurant__card-heart{
+      padding-top: 24px;
+    }
+ 
   }
 
 
