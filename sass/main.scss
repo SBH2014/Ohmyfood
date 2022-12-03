@@ -3,8 +3,9 @@
 @import "utils/mixins";
 @import "utils/extension";
 @import "componants/button";
-@import "layouts/footer";
-@import "layouts/restaurants_menu";
 @import "base/animations";
 @import "base/rules";
-@import "./main__home-page.scss";
+@import "layouts/footer";
+@import "layouts/header";
+@import "pages/restaurants_menu";
+

@@ -1,9 +1,8 @@
 .footer{
     background-color:#353535;
     color: white;
-    padding: 20px;
-   
-    
+    padding: 30px;
+
     h2{
        
         @include font-family-title;
@@ -24,7 +23,6 @@
         text-decoration: none;
         color: white;
         column-gap:10px
-        
     }
     @media screen and (min-width:$tablette) {
         &__links{
