@@ -442,7 +442,7 @@ th {
 }
 @media screen and (min-width: 1008px) {
   .restaurant__menu-button {
-    width: 300px;
+    width: 320px;
   }
 }
 .restaurant__menu-button:hover .restaurant__menu-check {
@@ -521,8 +521,7 @@ th {
 .footer {
   background-color: #353535;
   color: white;
-  padding: 20px;
-  padding-bottom: 50px;
+  padding: 30px;
 }
 .footer h2 {
   font-family: "Shrikhand", cursive;
