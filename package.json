@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
-    "home": "sass --watch ./sass/main_index.scss:./public/css/style_home-page.css",
+    "home": "sass --watch ./sass/home_page.scss:./public/css/style_home-page.css",
+    "restaurants": "sass --watch ./sass/restaurants_page.scss:./public/css/style_restaurants.css",
     "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/",
     "prefindex": "postcss ./public/css/style_home-page.css --use autoprefixer -d ./public/css/prefixed/"
   },
