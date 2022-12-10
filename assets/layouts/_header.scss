@@ -1,16 +1,18 @@
 .header__logo {
   height: 80px;
-  @extend %flex;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
 
 
   &-pic {
-    width: 200px;
+    width: 250px;
+    height: 60px;
   }
 
   &-arrow {
 
-    position: absolute;
-    left: 35px;
     font-size: larger;
     cursor: pointer;
     text-decoration: none;

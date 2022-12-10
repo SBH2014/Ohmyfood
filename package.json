@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
-    "home": "sass --watch ./sass/home_page.scss:./public/css/style_home-page.css",
-    "restaurants": "sass --watch ./sass/restaurants_page.scss:./public/css/style_restaurants.css",
+    "sass": "sass --watch ./assets/main.scss:./public/css/style.css",
+    "home": "sass --watch ./assets/pages/_home.scss:./public/css/home.css",
+    "restaurants": "sass --watch ./assets/pages/restaurants.scss:./public/css/restaurants.css",
     "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/",
-    "prefindex": "postcss ./public/css/style_home-page.css --use autoprefixer -d ./public/css/prefixed/"
+    "prefindex": "postcss ./public/css/home.css --use autoprefixer -d ./public/css/prefixed/"
   },
   "author": "",
   "license": "ISC",

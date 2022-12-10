@@ -390,12 +390,6 @@ th {
   cursor: pointer;
 }
 
-.header__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* button search home page  */
 .hero-section__button {
   color: white;
@@ -416,7 +410,7 @@ th {
 .functioning__button {
   background-color: #f6f6f6;
   font-weight: 700;
-  width: 95%;
+  width: 100%;
   padding: 20px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   border-radius: 20px;
@@ -514,6 +508,8 @@ th {
 
 .block__page {
   font-family: "Roboto", sans-serif;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .footer {
@@ -564,13 +560,16 @@ th {
 
 .header__logo {
   height: 80px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header__logo-pic {
-  width: 200px;
+  width: 250px;
+  height: 60px;
 }
 .header__logo-arrow {
-  position: absolute;
-  left: 35px;
   font-size: larger;
   cursor: pointer;
   text-decoration: none;

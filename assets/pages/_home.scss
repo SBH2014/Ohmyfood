@@ -1,5 +1,13 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+@import "../utils/extension";
+@import "../layouts/loader";
+@import "../componants/home/hero-section";
+@import "../componants/home/location";
+@import "../componants/home/process";
+
 #restaurants {
- 
+
     background-color: $color-light-grey;
     padding: 20px;
     @extend %flex;
