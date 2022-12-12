@@ -1,6 +1,6 @@
 /* process home page */
 .functioning {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -18,10 +18,11 @@
         display: flex;
         flex-direction: column;
         justify-items: center;
-        width: 80%;
+        width: 90%;
         margin-top: 20px;
         row-gap: 20px;
-        padding-left: 30px;
+        padding-left: 10px;
+        
     }
     &__button {
         display: flex;
@@ -41,6 +42,7 @@
             position: absolute;
             color: $color-ink;
             margin-left: 20px;
+
         }
         &__text {
 
@@ -64,6 +66,10 @@
         &__text {
             margin-left: 40px;
         }
+        &__steps {
+            padding-left: 0;
+
+        }
     }
 
     @media screen and (min-width:$desktop) {
@@ -76,6 +82,7 @@
             flex-direction: row;
             column-gap: 30px;
             width: 90%;
+            padding-left: 0;
 
         }
 

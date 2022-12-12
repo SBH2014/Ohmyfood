@@ -27,17 +27,21 @@
     @extend %button;
     background-color: #f6f6f6;
     font-weight: 700;
-     width: 80%;
+     width: 90%;
     @include padding-button;
     @include box-shadow;
     border-radius: 20px;
 
     &:hover {
-        opacity: 1;
+      
         transition: .4s;
         box-shadow: 0 0 10px 0 rgb(0 0 0 / 100%);
+        background-color: #efe4fd;
+        :nth-child(2){
+            color: $color-primary;
+        }
+      
     }
-
 }
 
 /* dish button, page restaurants  */

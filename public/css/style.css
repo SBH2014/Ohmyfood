@@ -410,15 +410,18 @@ th {
 .functioning__button {
   background-color: #f6f6f6;
   font-weight: 700;
-  width: 100%;
+  width: 90%;
   padding: 20px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
 .functioning__button:hover {
-  opacity: 1;
   transition: 0.4s;
   box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+  background-color: #efe4fd;
+}
+.functioning__button:hover :nth-child(2) {
+  color: #9356DC;
 }
 
 /* dish button, page restaurants  */
