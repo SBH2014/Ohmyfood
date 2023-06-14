@@ -79,8 +79,9 @@ Tout le code css est généré grace au sass
 
 Points forts :
 
-Excellente maitrise de sass
-Code bien indenté
+- Excellente maitrise de sass
+- Code bien indenté
+
 Axes d'amélioration :
 
 ajouter dans .gitignore les fichier .idea et .vscode
@@ -92,8 +93,8 @@ les images logos non utilisés peuvent etre supprimés
 
 Remarques :
 
-Présentation structurée
-Excellente compréhension du code
-Explication du code claire
-Maitrise des animations
-Bonne maitrise de sass
+- Présentation structurée
+- Excellente compréhension du code
+- Explication du code claire
+- Maitrise des animations
+- Bonne maitrise de sass
