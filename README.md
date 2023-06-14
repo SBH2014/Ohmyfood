@@ -7,22 +7,25 @@ Intégrer les maquettes responsive d'Ohmyfood, un site 100% mobile proposant le 
 # Contraintes techniques
 
 -Les polices du site sont :
-Shrikhand pour le logo et les titres
-Roboto pour le texte
+
+- Shrikhand pour le logo et les titres
+- Roboto pour le texte
+
 -Les couleurs de la charte sont :
-Primaire (violet) #9356DC
-Secondaire (rose) #FF79DA
-Tertiaire (vert) #99E2D0
+
+- Primaire (violet) #9356DC
+- Secondaire (rose) #FF79DA
+- Tertiaire (vert) #99E2D0
 
 - Le développement devra se faire en CSS, sans JavaScript
 - Aucun framework ne devra être utilisé
 - Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML
-- 5 maquettes mobile sont fournies :
-  Accueil
-  Menu - La palette du goût
-  Menu - La note enchantée
-  Menu - À la française
-  Menu - Le délice des sens
+  -5 maquettes mobile sont fournies :
+  - Accueil
+  - Menu - La palette du goût
+  - Menu - La note enchantée
+  - Menu - À la française
+  - Menu - Le délice des sens
 - Le site devra être développer en utilisant une approche mobile-first
 - Le site devra également être adapté sur tablette et desktop avec une mise en page libre
 - Les pages devront passer la validation W3C en HTML et CSS sans erreur
