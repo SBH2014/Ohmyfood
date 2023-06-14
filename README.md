@@ -84,10 +84,10 @@ Points forts :
 
 Axes d'amélioration :
 
-ajouter dans .gitignore les fichier .idea et .vscode
-utiliser des noms de fichier en rapport avec le projet (hero-section.scss)
-utiliser plus de variables et de mixin sur le sass
-les images logos non utilisés peuvent etre supprimés
+- Ajouter dans .gitignore les fichier .idea et .vscode
+- Utiliser des noms de fichier en rapport avec le projet (hero-section.scss)
+- Utiliser plus de variables et de mixin sur le sass
+- Les images logos non utilisés peuvent etre supprimés
 
 # Soutenance
 
